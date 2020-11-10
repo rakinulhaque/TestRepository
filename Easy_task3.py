@@ -1,0 +1,25 @@
+mark=int(input("Mark: "))
+if(mark<50):
+    print("F")
+elif(mark<=51):
+    print("D-")
+elif(mark<=54):
+    print("D")
+elif(mark<=56):
+    print("D+")
+elif(mark<=59):
+    print("C-")
+elif(mark<=64):
+    print("C")
+elif(mark<=69):
+    print("C+")
+elif(mark<=74):
+    print("B-")
+elif(mark<=79):
+    print("B")
+elif(mark<=84):
+    print("B+")
+elif(mark<=89):
+    print("A-")
+else:
+    print("A")
